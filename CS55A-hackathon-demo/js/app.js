@@ -3,9 +3,9 @@ URL = window.URL || window.webkitURL;
 
 // Insert your Cognito and AWS credentials here
 
-var AWS_BucketName = "sagarwal10-test";
-var AWS_BucketRegion = "us-west-2";
-var AWS_CognitoPoolId = "us-west-2:b2ce8f88-4838-4a35-81f4-913d524089d6";
+var AWS_BucketName = "";
+var AWS_BucketRegion = "";
+var AWS_CognitoPoolId = "";
 
 var gumStream; //stream from getUserMedia()
 var recorder; //WebAudioRecorder object
